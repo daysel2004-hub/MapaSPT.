@@ -47,7 +47,7 @@
       "Google Satélite": googleSat
     }).addTo(map);
 
-    // Definir el sistema de referencia CRTM05 (EPSG:5367 - Costa Rica)
+    // Definir el sistema de referencia CRTM05 
     proj4.defs("EPSG:5367","+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs");
 
     // Función para transformar UTM (CRTM05) -> Lat/Lon WGS84
@@ -359,10 +359,11 @@ var radio35= L.circle(coords35, {
 }).addTo(map);
 radio35.bindPopup("<b>San Isidro</b><br>Humedad(min-max): (25%-57%)</b><br>Densidad: 1,70 Ton/m<sup>3</sup>-2,1Ton/m<sup>3</sup></b><br>Capacidad de soporte admisible(FS=3): 4Ton/m<sup>2</sup> - 20 Ton/m<sup>2</sup></b><br> Profundidad: 15 m </b><br> Clasificación: Arcilla de alta plasticidad");
 
-
+//Poner aquí el siguiente ejemplo copiando el anterior y cambiando los datos, importante: cambiarle el numero a todas las coords y radio 
   </script>
 
 </body>
 </html>
+
 
 
