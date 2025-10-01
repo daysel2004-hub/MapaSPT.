@@ -363,13 +363,24 @@ var radio35= L.circle(coords35, {
   fillColor: 'white',
   fillOpacity: 0.25
 }).addTo(map);
-radio35.bindPopup("<b>San Isidro</b><br>Humedad(min-max): (25%-57%)</b><br>Densidad: 1,70 Ton/m<sup>3</sup>-2,1Ton/m<sup>3</sup></b><br>Capacidad de soporte admisible(FS=3): 4Ton/m<sup>2</sup> - 20 Ton/m<sup>2</sup></b><br> Profundidad: 15 m </b><br> Clasificación: Arcilla de alta plasticidad");
+radio35.bindPopup("<b>San Isidro</b><br>Humedad(min-max): (25%-57%)</b><br>Densidad: 1,70 Ton/m<sup>3</sup>-2,1Ton/m<sup>3</sup></b><br>Capacidad de soporte admisible(FS=3): 4Ton/m<sup>2</sup> - 20 Ton/m<sup>2</sup></b><br> Profundidad: 15 m </b><br> Clasificación: Arcilla de alta plasticidad ");
+
+// 🔹 Ejemplo 36: Oreamuno 
+var coords36 = convertirUTM(513158.602, 1096833.002);
+var radio36= L.circle(coords36, {
+  radius: 500, 
+  color: 'white',
+  fillColor: 'white',
+  fillOpacity: 0.25
+}).addTo(map);
+radio36.bindPopup("<b>Oreamuno</b><br>Humedad(min-max): (33%-90%)</b><br>Densidad: 1,338 Ton/m<sup>3</sup>-1,516Ton/m<sup>3</sup></b><br>Capacidad de soporte admisible(FS=3): 6 Ton/m<sup>2</sup> - 8 Ton/m<sup>2</sup></b><br> Profundidad: 5 m </b><br> Clasificación: Limo elástico renoso </b><br> Nota: Había presencia de material orgánico de 0,0m-3,0m ");
 
 //Poner aquí el siguiente ejemplo copiando el anterior y cambiando los datos, importante: cambiarle el numero a todas las coords y radio 
   </script>
 
 </body>
 </html>
+
 
 
 
