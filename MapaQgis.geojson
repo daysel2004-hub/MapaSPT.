@@ -30432,7 +30432,8 @@
         "profundidad_m": "15m",
         "clasificacion": "Arcilla de alta plasticidad"
       }
-    }
+    } 
+//se debe poner una coma en el parentesis anterior y pegar el código que tira la pagina. Todo tiene que quedar antes del parentesis cuadrado a continuación
   ],
   "crs": {
     "type": "name",
