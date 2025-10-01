@@ -30748,8 +30748,7 @@
 }
 }
 
-//se debe poner una coma en el parentesis anterior y pegar el código que tira la pagina  ELIMINAR LA COMA QUE TRAE. Todo tiene que quedar antes del parentesis cuadrado a continuación
-  ],
+ ],
   "crs": {
     "type": "name",
     "properties": {
