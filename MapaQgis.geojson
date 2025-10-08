@@ -5243,7 +5243,7 @@
         "nombre": "Cartago",
         "humedad_min": "16%",
         "humedad_max": "56%",
-        "densidad_min": "1.8795 Ton/m³",
+        "densidad_min": "1.795 Ton/m³",
         "densidad_max": "1.975Ton/m³",
         "soporte_min": "8 Ton/m²",
         "soporte_max": "20 Ton/m²",
@@ -23084,7 +23084,7 @@
         "humedad_max": "63%",
         "densidad_min": "1.780 Ton/m³",
         "densidad_max": "1.835 Ton/m³",
-        "soporte_max": "20 Ton/m²",
+        "soporte": "20 Ton/m²",
         "profundidad_m": "5.0m",
         "clasificacion": "Limo de alta plasticidad",
         "nota": "Había presencia de material orgánico de 0,0m-1,35m"
