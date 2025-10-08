@@ -8394,7 +8394,7 @@
         "humedad_min": "40%",
         "humedad_max": "160%",
         "densidad_min": "0.96 Ton/m³",
-        "densidad_max": "1.1.44 Ton/m³",
+        "densidad_max": "1.44 Ton/m³",
         "soporte_min": "2 Ton/m²",
         "soporte_max": "12 Ton/m²",
         "profundidad_m": "5.0m",
